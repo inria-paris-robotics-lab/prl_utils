@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>prl_utils</name>
+  <version>1.0.0</version>
+  <description>
+    prl_utils provides common utilities PRL robots
+  </description>
+
+  <maintainer email="igor.kalevatykh@inria.fr">Igor Kalevatykh</maintainer>
+  <author email="igor.kalevatykh@inria.fr">Igor Kalevatykh</author>
+
+  <license>MIT</license>
+
+  <url type="repository">https://github.com/inria-paris-robotic-lab/prl_ur5_robot</url>
+  <url type="bugtracker">https://github.com/inria-paris-robotic-lab/prl_ur5_robot/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+
+  <!-- <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-numpy</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-numpy</exec_depend> -->
+</package>
